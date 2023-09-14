@@ -1,0 +1,67 @@
+{
+  "groups": [
+    {
+      "name": "email",
+      "type": "com.budget.manager.shared.properties.EmailProperties",
+      "sourceType": "com.budget.manager.shared.properties.EmailProperties"
+    },
+    {
+      "name": "jwt.token",
+      "type": "com.budget.manager.shared.properties.JwtProperties",
+      "sourceType": "com.budget.manager.shared.properties.JwtProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "email.sender-address",
+      "type": "java.lang.String",
+      "sourceType": "com.budget.manager.shared.properties.EmailProperties"
+    },
+    {
+      "name": "email.subject-password-reset",
+      "type": "java.lang.String",
+      "sourceType": "com.budget.manager.shared.properties.EmailProperties"
+    },
+    {
+      "name": "email.subject-register-verification",
+      "type": "java.lang.String",
+      "sourceType": "com.budget.manager.shared.properties.EmailProperties"
+    },
+    {
+      "name": "email.url-front-end",
+      "type": "java.lang.String",
+      "sourceType": "com.budget.manager.shared.properties.EmailProperties"
+    },
+    {
+      "name": "email.url-password-reset",
+      "type": "java.lang.String",
+      "sourceType": "com.budget.manager.shared.properties.EmailProperties"
+    },
+    {
+      "name": "email.url-register-verification",
+      "type": "java.lang.String",
+      "sourceType": "com.budget.manager.shared.properties.EmailProperties"
+    },
+    {
+      "name": "jwt.token.expiration-time",
+      "type": "java.lang.Long",
+      "sourceType": "com.budget.manager.shared.properties.JwtProperties"
+    },
+    {
+      "name": "jwt.token.header",
+      "type": "java.lang.String",
+      "sourceType": "com.budget.manager.shared.properties.JwtProperties"
+    },
+    {
+      "name": "jwt.token.prefix",
+      "type": "java.lang.String",
+      "sourceType": "com.budget.manager.shared.properties.JwtProperties"
+    },
+    {
+      "name": "jwt.token.secret",
+      "type": "java.lang.String",
+      "sourceType": "com.budget.manager.shared.properties.JwtProperties"
+    }
+  ],
+  "hints": []
+}
